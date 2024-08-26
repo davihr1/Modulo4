@@ -1,0 +1,10 @@
+-- `.substring()` é utilizado para extrair uma parte de uma string, com base em índices especificados. Ele recebe dois parâmetros: o índice inicial (start) e o índice final (end) da substring que se deseja extrair. O método retorna a parte da string compreendida entre esses índices. Por exemplo, considerando a seguinte string: ```javascript const frase = "Aprendendo JavaScript é muito divertido!"; ``` Se quisermos extrair a palavra "JavaScript" dessa string, podemos utilizar o método `.substring()` da seguinte forma: ```javascript const palavra = frase.substring(12, 22); ``` Nesse caso, o índice 12 corresponde à letra "J" da palavra "JavaScript" e o índice 22 corresponde à letra "t". Portanto, a variável `palavra` irá conter a substring "JavaScript".
+
+-- `.split()` é utilizado para dividir uma string em um array de substrings, com base em um separador especificado. Esse separador pode ser um caractere, uma string ou uma expressão regular. Por exemplo, considerando a seguinte string: ```javascript const frase = "Olá, tudo bem?"; ``` Se quisermos dividir essa frase em um array de palavras, considerando o espaço como separador, podemos utilizar o método `.split()` da seguinte forma: ```javascript const palavras = frase.split(" "); ``` Nesse caso, o resultado será um array `palavras` contendo `["Olá,", "tudo", "bem?"]`, onde cada palavra da frase original se torna um elemento do array. Além disso, é possível utilizar outros separadores, como vírgulas, ponto e vírgula, ou até mesmo expressões regulares para dividir a string de acordo com padrões específicos.
+
+-- replace()
+
+Por que replace()?
+Função específica para substituição: O método replace() em JavaScript é projetado exatamente para localizar e substituir partes de uma string por outras.
+Flexibilidade: Permite substituir strings, expressões regulares ou até mesmo usar funções para personalizar a substituição.
+Retorna nova string: Ao invés de modificar a string original, replace() retorna uma nova string com as substituições realizadas.
