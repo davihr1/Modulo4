@@ -8,3 +8,5 @@ Por que replace()?
 Função específica para substituição: O método replace() em JavaScript é projetado exatamente para localizar e substituir partes de uma string por outras.
 Flexibilidade: Permite substituir strings, expressões regulares ou até mesmo usar funções para personalizar a substituição.
 Retorna nova string: Ao invés de modificar a string original, replace() retorna uma nova string com as substituições realizadas.
+
+-- Em uma classe, o "this" é usado para se referir às propriedades e métodos da própria instância da classe. Isso é importante para garantir que cada instância da classe tenha acesso às suas próprias propriedades e métodos, evitando conflitos entre diferentes instâncias.
